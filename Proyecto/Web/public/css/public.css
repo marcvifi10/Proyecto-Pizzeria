@@ -1,0 +1,451 @@
+/* ===========================================================================
+   Rojo: #d42e12
+   ======================================================================== */
+
+/* ===========================================================================
+   Enlaces
+   ======================================================================== */
+a         { color: #333;}
+a:visited { color: #000;}
+a:hover   { color: #000 !important; }
+a:active  { position: relative; top: 1px; }
+
+
+h1, .h1 {
+	background-color: #d42e12;
+	color: #FFF;
+	margin-top: 10px;
+	padding: 5px 10px;
+	margin-bottom: 0;
+}
+
+h1 a {
+	color: #fff;	
+}
+
+
+.opacity {
+	filter:  grayscale(1);
+	-webkit-filter: grayscale(1) ;
+}
+
+.opacity:hover {
+	filter:  grayscale(0);
+	-webkit-filter: grayscale(0) ;
+	transition-property: filter;
+	transition-duration: 1s;	
+}
+
+.box-content a, .box-content a:visited {
+	text-decoration: none;
+	color: #3966cc;
+	font-weight:bold;
+}
+
+/* ===========================================================================
+   Estructura
+   ======================================================================== */
+
+/* ===========================================================================
+   Header
+   ======================================================================== */
+header nav p {
+	color: #d42e12;
+}
+
+
+/* ===========================================================================
+   Menu
+   ======================================================================== */
+.navbar-default {
+	background-color: #d42e12;
+	border-color: #d22306;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+	font-size: 14px;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    background-color: #d42e12;
+    color: #fff;
+}
+
+.open > a:focus {
+	background-color: #d42e12;
+	color: # fff;	
+}
+
+
+/* ===========================================================================
+   Slide
+   ======================================================================== */
+
+.slide {
+	position: relative; 
+	overflow: auto; 
+}
+.slide ul {
+	margin:0;
+	padding:0;
+}
+.slide li { 
+	list-style: none;
+	height: 300px; 
+	margin-top:0;
+}
+.slide ul li { float: left; }
+
+/* ===========================================================================
+   Zona lateral
+   ======================================================================== */
+aside #login h2 {
+    color: #777;
+    margin: -.5em 0 .5em;
+    text-align: center;
+}
+aside #login .boton {
+    background-color: #008000;
+    color: #FFF;
+    display: block;
+    font-size: 24px;
+    font-weight: normal;
+    margin: 0 0 1em;
+    padding: .5em 1em;
+    text-align: center;
+    text-shadow: none;
+}
+aside #login .boton:hover { background: rgba(0,128,0, 0.8); }
+aside:hover #login .boton { text-decoration: none; }
+
+aside #login form {
+    padding: 10px 20px;
+}
+aside #login label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+}
+aside #login input[type="checkbox"] + label {
+    display: inline;
+}
+aside #login input {
+    font-size: 14px;
+    padding: 2px;
+    margin-bottom: 7px;
+}
+aside #login form input[type="submit"] {
+    margin: 0;
+    padding: 4px 7px;
+    position: static;
+}
+aside #login input[name="_username"] {
+    width: 150px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;	
+	padding: 5px;
+}
+aside #login input[name="_password"] {
+    width: 150px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;	
+	padding: 5px;
+}
+
+/* Cuando el usuario ya se ha conectado... */
+aside #login p strong {
+    display: block;
+    font-size: 18px;
+}
+aside #login a {
+    display: block;
+    font-size: 16px;
+    margin: .5em;
+}
+
+aside #relacionadas ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+aside #relacionadas li {
+    font-weight: bold;
+}
+aside #relacionadas li a {
+    font-weight: normal;
+}
+
+aside #condiciones, aside #nosotros {
+    color: #444;
+}
+
+
+/* ===========================================================================
+   Página de login + registro
+   ======================================================================== */
+#login article {
+    position: static;
+    min-height: 400px;
+    overflow: hidden;
+    padding-top: 2em;
+    width: 100%;
+}
+#login aside {
+    display: none;
+}
+
+#login #entrar {
+    border-right: 2px solid #CCC;
+    float: left;
+    width: 48%;
+}
+#login #registrar {
+    float: right;
+    width: 48%;
+}
+
+#login #entrar h1 {
+    margin-bottom: .5em;
+    margin-left: 3em;
+}
+#login #entrar form {
+    margin-left: 6em;
+}
+
+#login #entrar input[type='text'],
+#login #entrar input[type='password'] {
+    display: block;
+}
+#login #entrar input[type='submit'] {
+    font-weight: bold;
+    padding: .5em 1em;
+    position: static;
+}
+
+#login #registrar a {
+    display: block;
+    font-size: 28px;
+    margin: 3em 2em;
+    text-align: center;
+    width: 50%;
+}
+
+/* ===========================================================================
+   Novedades
+   ======================================================================== */
+.featured ul {
+	list-style:none;
+	padding: 0;	
+}
+
+.featured img {
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;	
+	float: left;
+	margin-right: 20px;		
+}
+
+/* ===========================================================================
+   Secciones
+   ======================================================================== */
+.info h1 {
+	margin-bottom:20px;	
+}
+
+
+.info h3{
+	padding: 0 10px;
+}
+
+.info h4{
+	padding: 0 10px;
+}
+
+/* ===========================================================================
+   Libro de visitas
+   ======================================================================== */
+.guestbook ul {
+	padding-left: 0;
+	margin-left: 0;	
+}
+.guestbook ul li {
+	list-style: none;
+	border-bottom: 2px solid #B0B0B0;
+	margin-bottom: 10px;	
+}
+
+.guestbook p {
+	font-style: italic;	
+}
+
+
+/* ===========================================================================
+   Footer
+   ======================================================================== */
+.footer-menu {
+	background-color: #d42e12;
+}
+.footer-menu2 {
+	background-color: #B0B0B0;
+}
+.footer-menu1 {
+	background-color:#F0F0F0;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border-radius: 10px 10px 10px 10px;	
+}
+
+/* ===========================================================================
+   Fechas
+   ======================================================================== */
+h3 .date, h1 .date {
+	background-color: #fff;
+	text-align:center;
+	border: 1px solid #bbb;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;	
+	margin-left: 10px;
+	padding: 1px;
+	color: #666;
+	width: 46px;
+}
+
+h3 .date .day, h1 .date .day {
+	font-size: 16px;
+	line-height: 16px;	
+	float:left;
+}
+
+h3 .date .month , h1 .date .month {
+	font-size: 8px;
+	line-height: 8px;
+	text-transform: uppercase;
+	float:right;
+	padding-right: 2px;
+}
+
+h3 .date .year, h1 .date .year {
+	font-size: 9px;
+	line-height: 8px;
+	float:right;
+	padding-right: 2px;
+}
+
+/* ===========================================================================
+   Novedades biblioteca
+   ======================================================================== */
+.carousel-book {
+	position: absolute;
+  	right: 10%;
+  	bottom: 0px;
+  	left: 10%;
+  	z-index: 10;
+  	padding-top: 20px;
+  	padding-bottom: 20px;
+}
+
+.carousel-book img {
+	margin-right: 10px;
+	float:left;
+}
+
+.carousel-book h3 {
+	margin-top: 0px;
+}
+
+.carousel-control {
+	width: 8%;
+}
+
+
+
+
+/* ===========================================================================
+   Ocupació Sala d'Actes
+   ======================================================================== */
+
+.ocupacio h1 {
+	margin: 0;
+	font-size: 60px;
+}
+
+.ocupacio h1 small {
+	font-size: 40px;
+	float: right;
+	color: #fff;
+	padding-top: 20px;
+}
+
+.ocupacio .current h2 {
+	font-size: 90px;
+	float: left;
+}
+
+.ocupacio h2 {
+	font-size: 30px;
+	margin-top: 10px;
+	margin-left: 250px;
+}
+
+.ocupacio .titol {
+	font-size: 30px;
+}
+
+.ocupacio .subtitol {
+	font-size: 30px;
+	color:#777;
+}
+
+.ocupacio .current .titol {
+	font-size: 70px;
+}
+
+.ocupacio .current .subtitol {
+	font-size: 50px;
+	color:#777;
+
+}
+
+.ocupacio .current .subtitol::before {
+
+	content: '\A';
+	white-space: pre;
+}
+
+.ocupacio h3 {
+
+	margin-top: 10px;
+	font-size: 30px;
+	float: left;
+}
+
+.ocupacio h5 {
+	width: 250px;
+	font-size: 30px;
+	float: left;
+}
+
+.ocupacio li {
+	
+	font-size: 30px;
+	padding: 20px;
+	border-bottom: 4px solid #d42e12;
+	background: #dedede;
+	overflow: hidden;
+}
+
+.ocupacio .current {
+	
+	height: 580px;
+	font-size: 30px;
+	padding: 20px;
+	border-bottom: 4px solid #d42e12;
+	background: #fff;
+}
+
+

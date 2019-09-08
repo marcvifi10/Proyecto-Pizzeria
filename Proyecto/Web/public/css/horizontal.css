@@ -1,0 +1,781 @@
+.footer-color
+{
+
+    background-color: black;
+    font: bold;
+    /*height: 40px;*/
+    color:white;
+
+}
+
+#contingut_footer
+{
+
+    margin-top: 10px;
+
+}
+
+.enllac
+{
+
+    text-decoration: none;
+
+}
+
+.activo
+{
+
+    color:red;
+
+}
+
+.activo2
+{
+
+    color: blue;
+
+}
+
+#inici
+{
+
+    text-decoration: none;
+
+}
+
+#pizzes
+{
+
+    text-decoration: none;
+
+}
+
+#menus
+{
+
+    text-decoration: none;
+
+}
+
+#begudes
+{
+
+    text-decoration: none;
+
+}
+
+#postres
+{
+
+    text-decoration: none;
+
+}
+
+#contacte
+{
+
+    text-decoration: none;
+
+}
+
+#login
+{
+
+    text-decoration: none;
+
+}
+
+#login:hover
+{
+
+    text-decoration: underline;
+    background: rgb(4, 142, 255);
+
+}
+
+#registre
+{
+
+    text-decoration: none;
+
+}
+
+#registre:hover
+{
+
+    text-decoration: underline;
+    background: rgb(4, 142, 255);
+
+}
+
+#fons
+{
+
+    background: #F95B01;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+html 
+{
+
+    height: 100%
+
+}
+
+@media only screen and (max-width: 699px) {
+
+    .site-nav a
+    {
+
+        background: #F9370E;
+
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+
+    ul.horizontal
+    {
+        margin:0;
+        padding:0;
+        color:white
+        
+    }
+
+    ul.horizontal li
+    {
+            display:block;
+            float:left;
+            padding:0 25px;
+            font-size: 20px;
+    }
+
+}
+
+@media only screen and (min-width: 778px) {
+
+    ul.horizontal
+    {
+        margin:0;
+        padding:0;
+        color:white
+        
+    }
+
+    ul.horizontal li
+    {
+            display:block;
+            float:left;
+            padding:0 26px;
+            font-size: 20px;
+    }
+
+}
+
+@media only screen and (min-width: 788px) {
+
+    ul.horizontal
+    {
+        margin:0;
+        padding:0;
+        color:white
+        
+    }
+
+    ul.horizontal li
+    {
+            display:block;
+            float:left;
+            padding:0 27px;
+            font-size: 20px;
+    }
+
+}
+
+@media only screen and (min-width: 798px) {
+
+    ul.horizontal
+    {
+        margin:0;
+        padding:0;
+        color:white
+        
+    }
+
+    ul.horizontal li
+    {
+            display:block;
+            float:left;
+            padding:0 27px;
+            font-size: 20px;
+    }
+
+}
+
+@media only screen and (min-width: 808px) {
+
+    ul.horizontal
+    {
+        margin:0;
+        padding:0;
+        color:white
+        
+    }
+
+    ul.horizontal li
+    {
+            display:block;
+            float:left;
+            padding:0 28px;
+            font-size: 20px;
+    }
+
+}
+
+@media only screen and (min-width: 818px) {
+
+    ul.horizontal
+    {
+        margin:0;
+        padding:0;
+        color:white
+        
+    }
+
+    ul.horizontal li
+    {
+            display:block;
+            float:left;
+            padding:0 29px;
+            font-size: 20px;
+    }
+
+}
+
+@media only screen and (min-width: 828px) {
+
+    ul.horizontal
+    {
+        margin:0;
+        padding:0;
+        color:white
+        
+    }
+
+    ul.horizontal li
+    {
+            display:block;
+            float:left;
+            padding:0 30px;
+            font-size: 20px;
+    }
+
+}
+
+@media only screen and (min-width: 838px) {
+
+    ul.horizontal
+    {
+        margin:0;
+        padding:0;
+        color:white
+        
+    }
+
+    ul.horizontal li
+    {
+            display:block;
+            float:left;
+            padding:0 31px;
+            font-size: 20px;
+    }
+
+}
+
+@media only screen and (min-width: 850px) {
+
+    ul.horizontal
+    {
+        margin:0;
+        padding:0;
+        color:white
+        
+    }
+
+    ul.horizontal li
+    {
+            display:block;
+            float:left;
+            padding:0 32px;
+            font-size: 20px;
+    }
+
+}
+
+@media only screen and (min-width: 862px) {
+
+    ul.horizontal
+    {
+        margin:0;
+        padding:0;
+        color:white
+        
+    }
+
+    ul.horizontal li
+    {
+            display:block;
+            float:left;
+            padding:0 33px;
+            font-size: 20px;
+    }
+
+}
+
+@media only screen and (min-width: 873px) {
+
+    ul.horizontal
+    {
+        margin:0;
+        padding:0;
+        color:white
+        
+    }
+
+    ul.horizontal li
+    {
+            display:block;
+            float:left;
+            padding:0 32px;
+            font-size: 20px;
+    }
+
+}
+
+@media only screen and (min-width: 890px) {
+
+    ul.horizontal
+    {
+        margin:0;
+        padding:0;
+        color:white
+        
+    }
+
+    ul.horizontal li
+    {
+            display:block;
+            float:left;
+            padding:0 35px;
+            font-size: 20px;
+    }
+
+}
+
+@media only screen and (min-width: 910px) {
+
+    ul.horizontal
+    {
+        margin:0;
+        padding:0;
+        color:white
+        
+    }
+
+    ul.horizontal li
+    {
+            display:block;
+            float:left;
+            padding:0 36px;
+            font-size: 20px;
+    }
+
+}
+
+@media only screen and (min-width: 925px) {
+
+    ul.horizontal
+    {
+        margin:0;
+        padding:0;
+        color:white
+        
+    }
+
+    ul.horizontal li
+    {
+            display:block;
+            float:left;
+            padding:0 37px;
+            font-size: 20px;
+    }
+
+}
+
+@media only screen and (min-width: 935px) {
+
+    ul.horizontal
+    {
+        margin:0;
+        padding:0;
+        color:white
+        
+    }
+
+    ul.horizontal li
+    {
+            display:block;
+            float:left;
+            padding:0 38px;
+            font-size: 20px;
+    }
+
+}
+
+@media only screen and (min-width: 945px) {
+
+    ul.horizontal
+    {
+        margin:0;
+        padding:0;
+        color:white
+        
+    }
+
+    ul.horizontal li
+    {
+            display:block;
+            float:left;
+            padding:0 39px;
+            font-size: 20px;
+    }
+
+}
+
+@media only screen and (min-width: 955px) {
+
+    ul.horizontal
+    {
+        margin:0;
+        padding:0;
+        color:white
+        
+    }
+
+    ul.horizontal li
+    {
+            display:block;
+            float:left;
+            padding:0 40px;
+            font-size: 20px;
+    }
+
+}
+
+@media only screen and (min-width: 965px) {
+
+    ul.horizontal
+    {
+        margin:0;
+        padding:0;
+        color:white
+        
+    }
+
+    ul.horizontal li
+    {
+            display:block;
+            float:left;
+            padding:0 41px;
+            font-size: 20px;
+    }
+
+}
+
+@media only screen and (min-width: 975px) {
+
+    ul.horizontal
+    {
+        margin:0;
+        padding:0;
+        color:white
+        
+    }
+
+    ul.horizontal li
+    {
+            display:block;
+            float:left;
+            padding:0 42px;
+            font-size: 20px;
+    }
+
+}
+
+@media only screen and (min-width: 985px) {
+
+    ul.horizontal
+    {
+        margin:0;
+        padding:0;
+        color:white
+        
+    }
+
+    ul.horizontal li
+    {
+            display:block;
+            float:left;
+            padding:0 43px;
+            font-size: 20px;
+    }
+
+}
+
+
+@media only screen and (min-width: 990px) {
+
+    ul.horizontal
+    {
+        margin:0;
+        padding:0;
+        color:white
+        
+    }
+
+    ul.horizontal li
+    {
+            display:block;
+            float:left;
+            padding:0 41px;
+            font-size: 20px;
+    }
+
+}
+
+@media only screen and (min-width: 992px) {
+
+    ul.horizontal
+    {
+        margin:0;
+        padding:0;
+        color:white
+        
+    }
+
+    ul.horizontal li
+    {
+            display:block;
+            float:left;
+            padding:0 41px;
+            font-size: 20px;
+    }
+
+}
+
+@media only screen and (min-width: 995px) {
+
+    ul.horizontal
+    {
+        margin:0;
+        padding:0;
+        color:white
+        
+    }
+
+    ul.horizontal li
+    {
+            display:block;
+            float:left;
+            padding:0 41px;
+            font-size: 20px;
+    }
+
+}
+
+@media only screen and (min-width: 1000px) {
+
+    ul.horizontal
+    {
+        margin:0;
+        padding:0;
+        color:white
+        
+    }
+
+    ul.horizontal li
+    {
+            display:block;
+            float:left;
+            padding:0 42px;
+            font-size: 20px;
+    }
+
+}
+
+@media only screen and (min-width: 1055px) {
+
+    ul.horizontal
+    {
+        margin:0;
+        padding:0;
+        color:white
+        
+    }
+
+    ul.horizontal li
+    {
+            display:block;
+            float:left;
+            padding:0 47px;
+            font-size: 20px;
+    }
+
+}
+
+@media only screen and (min-width: 1100px) {
+
+    ul.horizontal
+    {
+        margin:0;
+        padding:0;
+        color:white
+        
+    }
+
+    ul.horizontal li
+    {
+            display:block;
+            float:left;
+            padding:0 47px;
+            font-size: 20px;
+    }
+
+}
+
+@media only screen and (min-width: 1112px) {
+
+    ul.horizontal
+    {
+        margin:0;
+        padding:0;
+        color:white
+        
+    }
+
+    ul.horizontal li
+    {
+            display:block;
+            float:left;
+            padding:0 51px;
+            font-size: 20px;
+    }
+
+}
+
+@media only screen and (min-width: 1126px) {
+
+    ul.horizontal
+    {
+        margin:0;
+        padding:0;
+        color:white
+        
+    }
+
+    ul.horizontal li
+    {
+            display:block;
+            float:left;
+            padding:0 54px;
+            font-size: 20px;
+    }
+
+}
+
+@media only screen and (min-width: 1134px) {
+
+    ul.horizontal
+    {
+        margin:0;
+        padding:0;
+        color:white
+        
+    }
+
+    ul.horizontal li
+    {
+            display:block;
+            float:left;
+            padding:0 70px;
+            font-size: 20px;
+    }
+
+}
+
+.navbar, .navbar>.container, .navbar>.container-fluid {
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+}
+
+.pointer
+{
+
+    cursor: pointer;
+
+}
+
+#login
+{
+
+    margin-left: 15px;
+
+}
+
+#registre
+{
+
+    margin-left: 17px;
+
+}
+
+#login_descripcio
+{
+
+    margin-left: 85px;
+
+}
+
+.caja_inline 
+{
+
+    display: inline-block;
+    width: 100px;
+
+}
+
+td
+{
+
+    align-content: center;
+
+}
+
+.transparencia
+{
+
+    opacity:1;
+
+}
+
+.blau
+{
+
+    color:blue;
+
+}
